@@ -1,0 +1,20 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = mount;
+var _ReactWrapper = _interopRequireDefault(require("./ReactWrapper"));
+function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
+/**
+ * Mounts and renders a react component into the document and provides a testing wrapper around it.
+ *
+ * @param node
+ * @returns {ReactWrapper}
+ */
+function mount(node, options) {
+  return new _ReactWrapper["default"](node, null, options);
+}
+module.exports = exports.default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfUmVhY3RXcmFwcGVyIiwiX2ludGVyb3BSZXF1aXJlRGVmYXVsdCIsInJlcXVpcmUiLCJlIiwiX19lc01vZHVsZSIsIm1vdW50Iiwibm9kZSIsIm9wdGlvbnMiLCJSZWFjdFdyYXBwZXIiLCJtb2R1bGUiLCJleHBvcnRzIiwiZGVmYXVsdCJdLCJzb3VyY2VzIjpbIi4uL3NyYy9tb3VudC5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3RXcmFwcGVyIGZyb20gJy4vUmVhY3RXcmFwcGVyJztcblxuLyoqXG4gKiBNb3VudHMgYW5kIHJlbmRlcnMgYSByZWFjdCBjb21wb25lbnQgaW50byB0aGUgZG9jdW1lbnQgYW5kIHByb3ZpZGVzIGEgdGVzdGluZyB3cmFwcGVyIGFyb3VuZCBpdC5cbiAqXG4gKiBAcGFyYW0gbm9kZVxuICogQHJldHVybnMge1JlYWN0V3JhcHBlcn1cbiAqL1xuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gbW91bnQobm9kZSwgb3B0aW9ucykge1xuICByZXR1cm4gbmV3IFJlYWN0V3JhcHBlcihub2RlLCBudWxsLCBvcHRpb25zKTtcbn1cbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUEsSUFBQUEsYUFBQSxHQUFBQyxzQkFBQSxDQUFBQyxPQUFBO0FBQTBDLFNBQUFELHVCQUFBRSxDQUFBLFdBQUFBLENBQUEsSUFBQUEsQ0FBQSxDQUFBQyxVQUFBLEdBQUFELENBQUEsZ0JBQUFBLENBQUE7QUFFMUM7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ2UsU0FBU0UsS0FBS0EsQ0FBQ0MsSUFBSSxFQUFFQyxPQUFPLEVBQUU7RUFDM0MsT0FBTyxJQUFJQyx3QkFBWSxDQUFDRixJQUFJLEVBQUUsSUFBSSxFQUFFQyxPQUFPLENBQUM7QUFDOUM7QUFBQ0UsTUFBQSxDQUFBQyxPQUFBLEdBQUFBLE9BQUEsQ0FBQUMsT0FBQSIsImlnbm9yZUxpc3QiOltdfQ==
+//# sourceMappingURL=mount.js.map

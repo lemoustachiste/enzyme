@@ -1,0 +1,20 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = shallow;
+var _ShallowWrapper = _interopRequireDefault(require("./ShallowWrapper"));
+function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
+/**
+ * Shallow renders a react component and provides a testing wrapper around it.
+ *
+ * @param node
+ * @returns {ShallowWrapper}
+ */
+function shallow(node, options) {
+  return new _ShallowWrapper["default"](node, null, options);
+}
+module.exports = exports.default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfU2hhbGxvd1dyYXBwZXIiLCJfaW50ZXJvcFJlcXVpcmVEZWZhdWx0IiwicmVxdWlyZSIsImUiLCJfX2VzTW9kdWxlIiwic2hhbGxvdyIsIm5vZGUiLCJvcHRpb25zIiwiU2hhbGxvd1dyYXBwZXIiLCJtb2R1bGUiLCJleHBvcnRzIiwiZGVmYXVsdCJdLCJzb3VyY2VzIjpbIi4uL3NyYy9zaGFsbG93LmpzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBTaGFsbG93V3JhcHBlciBmcm9tICcuL1NoYWxsb3dXcmFwcGVyJztcblxuLyoqXG4gKiBTaGFsbG93IHJlbmRlcnMgYSByZWFjdCBjb21wb25lbnQgYW5kIHByb3ZpZGVzIGEgdGVzdGluZyB3cmFwcGVyIGFyb3VuZCBpdC5cbiAqXG4gKiBAcGFyYW0gbm9kZVxuICogQHJldHVybnMge1NoYWxsb3dXcmFwcGVyfVxuICovXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBzaGFsbG93KG5vZGUsIG9wdGlvbnMpIHtcbiAgcmV0dXJuIG5ldyBTaGFsbG93V3JhcHBlcihub2RlLCBudWxsLCBvcHRpb25zKTtcbn1cbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUEsSUFBQUEsZUFBQSxHQUFBQyxzQkFBQSxDQUFBQyxPQUFBO0FBQThDLFNBQUFELHVCQUFBRSxDQUFBLFdBQUFBLENBQUEsSUFBQUEsQ0FBQSxDQUFBQyxVQUFBLEdBQUFELENBQUEsZ0JBQUFBLENBQUE7QUFFOUM7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ2UsU0FBU0UsT0FBT0EsQ0FBQ0MsSUFBSSxFQUFFQyxPQUFPLEVBQUU7RUFDN0MsT0FBTyxJQUFJQywwQkFBYyxDQUFDRixJQUFJLEVBQUUsSUFBSSxFQUFFQyxPQUFPLENBQUM7QUFDaEQ7QUFBQ0UsTUFBQSxDQUFBQyxPQUFBLEdBQUFBLE9BQUEsQ0FBQUMsT0FBQSIsImlnbm9yZUxpc3QiOltdfQ==
+//# sourceMappingURL=shallow.js.map
