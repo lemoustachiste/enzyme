@@ -7,7 +7,7 @@ import functionName from 'function.prototype.name';
 import hasOwn from 'hasown';
 import flat from 'array.prototype.flat';
 import trim from 'string.prototype.trim';
-import cheerio from 'cheerio';
+const cheerio = require('cheerio'); // do not modify output of loadCheerioRoot by babel
 
 import { get } from './configuration';
 import { childrenOfNode } from './RSTTraversal';
